@@ -4,7 +4,7 @@ Existing prompt learning methods have demonstrated certain capabilities in Out-o
 
 ## Overall Architecture
 
-![method](/Users/litianqi/Downloads/NegPrompt/Figures/method.png)
+![method](https://github.com/mala-lab/NegPrompt/blob/main/img/method.png)
 
 ## Installation
 
@@ -30,20 +30,20 @@ Arrange the data directory like this:
 NegPrompt
 |-- data/
     |-- ImageNet1k/
-    		|-- ILSVRC/
-    				|-- Data/
-    						|-- CLS-LOC/
-    								|-- train/
-    								|-- val/
-				｜protocols/
+	|-- ILSVRC/
+		|-- Data/
+			|-- CLS-LOC/
+				|-- train/
+				|-- val/
+		｜protocols/
     |-- iNaturalist/
-    		|--images/
+	|--images/
     |-- SUN/
-    		|--images/
+	|--images/
     |-- Places/
-    		|--images/
+	|--images/
     |-- dtd/
-    		|--images/
+	|--images/
     ...
 ```
 
